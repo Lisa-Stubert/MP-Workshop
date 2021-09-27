@@ -1,0 +1,67 @@
+[
+   {
+      "id": "luftbild",
+      "name": "Luftbild 2019",
+      "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2019_rgb",
+      "typ": "WMS",
+      "layers": "0",
+      "format": "image/png",
+      "version": "1.3.0",
+      "singleTile": false,
+      "transparent": true,
+      "transparency": 0,
+      "tilesize": "512",
+      "gfiAttributes": "ignore",
+      "gfiTheme": "default",
+      "layerAttribution": "nicht vorhanden",
+      "legend": false,
+      "cache": true,
+      "featureCount": "1"
+    },
+    {
+      "id": "k5_sw",
+      "name": "K5 (s/w)",
+      "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k5_sw",
+      "typ": "WMS",
+      "layers": "0",
+      "format": "image/png",
+      "version": "1.3.0",
+      "singleTile": false,
+      "transparent": true,
+      "transparency": 0,
+      "tilesize": "512",
+      "gfiAttributes": "ignore",
+      "gfiTheme": "default",
+      "layerAttribution": "nicht vorhanden",
+      "legend": false,
+      "cache": true,
+      "featureCount": "1"
+    },
+
+
+
+
+
+
+
+
+
+      
+      {
+        "id": "schulen",
+        "name": "Schulen",
+        "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_schulen",
+        "typ": "WFS",
+        "featureType": "s_schulen",
+        "version": "1.1.0",
+        "featureNS": "http://www.berlin.de/broker",
+        "outputFormat": "XML",
+        "format" : "image/png"
+      }
+]
+
+
+
+
+
+

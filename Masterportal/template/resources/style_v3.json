@@ -1,0 +1,51 @@
+[
+  {
+    "styleId": "style_schule",
+    "rules": [{
+        "style": {
+            "circleStrokeColor": [103,0,13, 1],
+            "circleFillColor": [251,106,74, 0.6],
+            "circleRadius": 15.5
+            }
+        }]
+    },
+
+
+
+    {
+        "styleId": "style_schule2",
+        "rules":
+        [
+          {
+            "conditions":
+              {
+              "properties":
+                 {
+                 "schulart": "Grundschule"
+                 }
+              },
+            "style":
+              {
+                "circleStrokeColor": [103,0,13, 1],
+                "circleFillColor": [251,106,274, 0.6],
+                "circleRadius": 7.5
+              }
+          },
+          {
+            "conditions":
+              {
+              "properties":
+                 {
+                 "schulart": "Gymnasium"
+                 }
+              },
+            "style":
+              {
+                "circleStrokeColor": [103,0,13, 1],
+                "circleFillColor": [151,6,74, 0.6],
+                "circleRadius": 7.5
+              }
+          }
+        ]
+      }
+]
