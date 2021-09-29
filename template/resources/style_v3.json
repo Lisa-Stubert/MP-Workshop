@@ -47,5 +47,27 @@
               }
           }
         ]
-      }
+      },
+      {
+        "styleId": "einschulungsgebiete_mitte",
+        "rules":
+        [
+          {
+            "conditions":
+              {
+              "properties":
+                 {
+                 "BEZName": "Mitte"
+                 }
+              },
+            "style":
+            {
+              "polygonStrokeColor": [50, 0, 0, 1],
+              "polygonStrokeWidth": 2,
+              "polygonFillColor": [100, 0, 0, 0.2],
+              "polygonStrokeDash": [0]
+              }
+          }
+        ]
+      },
 ]
